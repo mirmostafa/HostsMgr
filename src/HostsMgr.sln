@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32210.308
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HostsMgr", "HostsMgr\HostsMgr.csproj", "{1E195AB2-A911-4CE9-AADE-236E40C10B74}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Sample page", "Sample page", "{E34ADFD1-02A8-4471-AB63-1BC13F131DB8}"
+	ProjectSection(SolutionItems) = preProject
+		Sample Page\index.htm = Sample Page\index.htm
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1E195AB2-A911-4CE9-AADE-236E40C10B74}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1E195AB2-A911-4CE9-AADE-236E40C10B74}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1E195AB2-A911-4CE9-AADE-236E40C10B74}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1E195AB2-A911-4CE9-AADE-236E40C10B74}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {13602381-AF0A-4F27-9BC7-E3786B38B871}
+	EndGlobalSection
+EndGlobal

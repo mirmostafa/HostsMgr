@@ -2,8 +2,8 @@
 using System.Security.Principal;
 using Windows.Management;
 
-var rules = SystemHostsFileMaanger.ReadRules();
-SystemHostsFileMaanger.WriteRules(rules);
+var rules = SystemHostsFileManager.ReadRules();
+SystemHostsFileManager.WriteRules(rules);
 
 bool IsRunAsAdmin()
 {
@@ -15,7 +15,7 @@ bool IsRunAsAdmin()
 
 namespace Windows.Management
 {
-    public static class SystemHostsFileMaanger
+    public static class SystemHostsFileManager
     {
         private static readonly string _filePath = @"C:\Windows\System32\drivers\etc\hosts";
 
